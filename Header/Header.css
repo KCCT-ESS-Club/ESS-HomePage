@@ -1,0 +1,31 @@
+header{
+}
+
+.UpperHeader{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20vmin;
+    position: fixed;
+    background-color: #000000;
+    z-index: 98;
+}
+
+.UnderHeader{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 27vmin;
+    position: fixed;
+    background-color: #303030;
+    z-index: 97;
+}
+
+.TitleLogo{
+    height: 90%;      
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-45%) translateX(-50%);
+    z-index: 99;
+}
