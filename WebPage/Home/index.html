@@ -15,12 +15,25 @@
     <div class="splashbg"></div><!---画面遷移用-->
     <div id="container">
         <header>
-            <a href="../Home/index.html" class="UpperHeader">
+            <div class="nav-wrapper">
+                <!-- ナビゲーションメニュー -->
+                 <nav class="header-nav">
+                  <div class="nav-list">
+                    <div class="nav-item"><a class="nav-item-text" href="">About</a></div>
+                    <div class="nav-item"><a class="nav-item-text" href="">News</a></div>
+                    <div class="nav-item"><a class="nav-item-text" href="">Access</a></div>
+                  <!--nav-list--></div>
+                </nav>
+            </div> 
+            <button class="burger-btn">
+                <span class="bar bar_top"></span>
+                <span class="bar bar_mid"></span>
+                <span class="bar bar_bottom"></span>
+            </button>
+
+            <a href="../Home/index.html" class="HeaderBackGround">
                 <img class="TitleLogo" src="../../Header/TitleLogo.png" alt="ESS">
             </a>
-            <div class="UnderHeader">
-                
-            <!--UnderHeader--></div>
         </header>
 
         <main>
@@ -31,9 +44,13 @@
 
         </footer>
     <!--/container--></div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="../../PageStartAnimation/Animation.js"></script>
+    <script src="../../Header/Hamburger.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 </body>
 
 </html>
