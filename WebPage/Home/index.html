@@ -10,42 +10,43 @@
 </head>
 
 <body>
-    <div id="splash">
-        <div id="splash-logo"><img src="../../PageStartAnimation/10632 white.png" alt="ESS" class="WorldRotation"><p>Now Loading...</p></div>
-    <!--/splash--></div>
-    <div class="splashbg"></div><!---画面遷移用-->
-    <div id="container">
-        <header>
-            <div class="nav-wrapper">
-                <!-- ナビゲーションメニュー -->
-                 <nav class="header-nav">
-                  <div class="nav-list">
-                    <div class="nav-item"><a class="nav-item-text" href="../About/index.html">About</a></div>
-                    <div class="nav-item"><a class="nav-item-text" href="../News/index.html">News</a></div>
-                    <div class="nav-item"><a class="nav-item-text" href="../Access/index.html">Access</a></div>
-                  <!--nav-list--></div>
-                </nav>
-            </div> 
-            <button class="burger-btn">
-                <span class="bar bar_top"></span>
-                <span class="bar bar_mid"></span>
-                <span class="bar bar_bottom"></span>
-            </button>
+    <div id="loading">
+        <div class="loadingContent">
+            <img src="../../PageStartAnimation/globe.svg" alt="ESS" class="WorldRotation">
+            <p class="nowLoadingText">Now Loading...</p>
+        </div>
+    </div>
+    <header>
+        <div class="nav-wrapper">
+            <!-- ナビゲーションメニュー -->
+                <nav class="header-nav">
+                <div class="nav-list">
+                <div class="nav-item"><div class="nav-item-text" onclick="aboutJPLink()">About</div></div>
+                <div class="nav-item"><div class="nav-item-text" onclick="newsJPLink()">News</div></div>
+                <div class="nav-item"><div class="nav-item-text" onclick="accessJPLink()">Access</div></div>
+                <!--nav-list--></div>
+            </nav>
+        </div> 
+        <button class="burger-btn">
+            <span class="bar bar_top"></span>
+            <span class="bar bar_mid"></span>
+            <span class="bar bar_bottom"></span>
+        </button>
 
-            <a href="../Home/index.html" class="HeaderBackGround">
-                <img class="TitleLogo" src="../../Header/TitleLogo.png" alt="ESS">
-            </a>
-        </header>
+        <div onclick="homeJPLink()" class="HeaderBackGround">
+            <img class="TitleLogo" src="../../Header/TitleLogo.png" alt="ESS">
+        </div>
+    </header>
 
-        <main>
-            <p>Home</p>
-            <!--ここに内容を書く-->
-        </main>
+    <main>
+        <p>Home</p>
+        <!--ここに内容を書く-->
+    </main>
 
-        <footer>
+    <footer>
 
-        </footer>
-    <!--/container--></div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="../../PageStartAnimation/Animation.js"></script>
     <script src="../../Header/Hamburger.js"></script>
@@ -53,6 +54,7 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+    <script src="../../Main/Link.js"></script>
 </body>
 
 </html>
