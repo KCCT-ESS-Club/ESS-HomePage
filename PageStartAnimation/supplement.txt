@@ -1,2 +1,2 @@
 "globe.svg" is gotten from here
-    https://www.iconpacks.net/free-icon/global-9350.html
+    https://icons.getbootstrap.com/icons/globe/
