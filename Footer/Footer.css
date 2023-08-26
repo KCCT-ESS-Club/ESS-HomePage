@@ -1,0 +1,42 @@
+:root {
+    --clear: #ffffff00;
+    --essBlack: #0C0C0C;
+    --essDarkGray: #434343;
+} 
+
+footer{
+    background-color: var(--essDarkGray);
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+}
+
+.footerContext{
+    margin: auto;
+}
+
+.twitter{
+    background-color: rgb(45, 211, 241);
+    width: 4vh;
+    padding: 10px;
+    border-radius: 100%;
+    display: inline-flex;
+    margin-right: 10vw;
+}
+
+.KCCTMark{
+    background-color: #e6e6e6;
+    width: 4vh;
+    padding: 10px;
+    border-radius: 100%;
+    display: inline-flex;
+    margin-right: 10vw;
+}
+
+.github{
+    background-color: white;
+    width: 4vh;
+    padding: 10px;
+    border-radius: 100%;
+    display: inline-flex;
+}

@@ -1,5 +1,45 @@
+:root {
+    --clear: #ffffff00;
+    --essBlack: #0C0C0C;
+    --essDarkGray: #434343;
+} 
+
+body{
+    margin: 0;
+    height: 100%;
+    background: url(../Main/BGPattern.png) repeat;
+}
+
 main{
-    position: absolute;
-    top: 15vmin;
+    position: relative;
+    top: 16vmin;
     left: 0px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20vh;
+}
+
+.BGPoster{
+    width: 100vw;
+}
+
+hr{
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    margin: 70px;
+}
+
+.linktext{
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+    width: 50vw;
+    border-radius: 5vw;
+    margin: auto;
+}
+
+.linktext:hover{
+    background-color: white;
+    color: var(--essBlack);
 }
