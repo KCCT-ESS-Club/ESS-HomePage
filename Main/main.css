@@ -30,7 +30,7 @@
 
     p{
         color: white;
-        font-size: 4vmin;
+        font-size: 2.5vmin;
         margin-left: 5vmin;
         margin-right: 5vmin;
     }
@@ -69,7 +69,7 @@
     .textTitle1{
         margin-top: 8vmin;
         color: white;
-        font-size: 6vmin;
+        font-size: 4vmin;
     }
 
     .TitleUnderline{
@@ -81,14 +81,14 @@
 
     li{
         color: white;
-        font-size: 4vmin;
+        font-size: 2.5vmin;
         margin-left: 5vmin;
         margin-right: 5vmin;
     }
 
     .kosenPreConLink{
         color: rgb(193, 217, 247);
-        font-size: 4vmin;
+        font-size: 2.5vmin;
         margin-left: 5vmin;
         margin-right: 5vmin;
         text-decoration: underline ;
@@ -99,14 +99,14 @@
         width: 100%;
         height: auto;
         color: white;
-        font-size: 4vmin;
+        font-size: 2.5vmin;
     }
 
     thead{
-    background-color: var(--essDarkGray);
-    color: white;
-    border: 3px solid white;
-    font-size: 4vmin;
+        background-color: var(--essDarkGray);
+        color: white;
+        border: 3px solid white;
+        font-size: 4vmin;
     }
 
     th{
@@ -116,7 +116,7 @@
     td{
         background-color: #43434366;
         border: 3px solid white;
-        padding: 3vw;
+        padding: 1vh 3vw;
     }
 
     .randomBlankSpace{
@@ -161,6 +161,23 @@
         10%{ opacity: 1;}
         90%{ opacity: 1;}
         100%{ opacity: 0;}
+    }
+
+    .ScrollDown{
+        width: 100vw;
+        top: 50vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ScrollDownText{        
+        color: white;
+        font-size: 4vmin;
+        background: radial-gradient(#0C0C0Cea 50%, #0C0C0C00 70%);
+        padding: 70px;
+        border-radius: 60px;
+        text-align: center;
     }
 
     .Space4Pictures{
@@ -328,5 +345,9 @@
     .Space4Pictures{
         width: 100%;
         height: 75vw;
+    }
+
+    .ScrollDown{
+        display: none;
     }
 }
