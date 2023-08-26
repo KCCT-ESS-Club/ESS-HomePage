@@ -17,7 +17,7 @@ main{
     left: 0px;
     width: auto;
     height: auto;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 
 p{
@@ -75,4 +75,42 @@ li{
     font-size: 4vmin;
     margin-left: 5vmin;
     margin-right: 5vmin;
+}
+
+.kosenPreConLink{
+    color: rgb(193, 217, 247);
+    font-size: 4vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    text-decoration: underline ;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 4vmin;
+}
+
+thead{
+  background-color: var(--essDarkGray);
+  color: white;
+  border: 3px solid white;
+  font-size: 4vmin;
+}
+
+th{
+    border: 3px solid white;
+}
+
+td{
+    background-color: #43434366;
+    border: 3px solid white;
+    padding: 3vw;
+}
+
+.randomBlankSpace{
+    width: 100%;
+    height: 3vh;
 }

@@ -25,3 +25,7 @@ function kcctXLink() {
 function gitHubLink(){
     window.location.href = "https://github.com/KCCT-ESS-Club/ESS-HomePage"
 }
+
+function kosenPreCon(){
+    window.location.href = "http://cocet.org/precon/"
+}
