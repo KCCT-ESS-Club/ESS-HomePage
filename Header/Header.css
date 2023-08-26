@@ -169,6 +169,7 @@
         transition: all .5s;       
         z-index: 2;     
       }     
+      
       .header-nav{
         position: fixed;
         top: 10vmin;       

@@ -22,14 +22,16 @@ main{
 
 p{
     color: white;
-    font-size: 5vw;
+    font-size: 4vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
 }
 
 .BGPoster{
-    width: 100vw;
+    width: 100vmin;
 }
 
-hr{
+.linkLine{
     color: white;
     border-width: 3px;
     border-style: solid;
@@ -38,14 +40,39 @@ hr{
 
 .linktext{
     color: white;
-    font-size: 10vw;
+    font-size: 10vmin;
     text-align: center;
-    width: 50vw;
-    border-radius: 5vw;
+    width: 50vmin;
+    border-radius: 5vmin;
     margin: auto;
 }
 
 .linktext:hover{
     background-color: white;
     color: var(--essBlack);
+}
+
+.ContextArea{
+    margin-left: 7vmin;
+    margin-right: 7vmin;
+}
+
+.textTitle1{
+    margin-top: 8vmin;
+    color: white;
+    font-size: 8vmin;
+}
+
+.TitleUnderline{
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 70px;
+}
+
+li{
+    color: white;
+    font-size: 4vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
 }
