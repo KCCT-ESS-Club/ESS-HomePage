@@ -4,157 +4,329 @@
     --essDarkGray: #434343;
 } 
 
-body{
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background: url(../Main/BGPattern.png) repeat;
-}
+@media (min-width:1000px) {
+    body{
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../Main/BGPattern.png) repeat;
+    }
 
-main{
-    position: relative;
-    top: 16vmin;
-    left: 0px;
-    width: auto;
-    height: auto;
-    margin-bottom: 15vh;
-}
+    main{
+        position: relative;
+        top: 16vmin;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15vh;
+    }
 
-p{
+    .homeArea{
+        display: flex;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        justify-content: center;
+    }
+
+    p{
+        color: white;
+        font-size: 4vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+    }
+
+    .BGPoster{
+        width: 50vh;
+        margin-right: 5vw;
+    }
+
+    .linkLine{
+        color: white;
+        border-width: 3px;
+        border-style: solid;
+        margin: 70px 30px;
+    }
+
+    .linktext{
+        color: white;
+        font-size: 9vmin;
+        text-align: center;
+        width: 50vmin;
+        border-radius: 5vmin;
+        margin: auto 50px;
+    }
+
+    .linktext:hover{
+        background-color: white;
+        color: var(--essBlack);
+    }
+
+    .ContextArea{
+        margin-left: 7vmin;
+        margin-right: 7vmin;
+    }
+
+    .textTitle1{
+        margin-top: 8vmin;
+        color: white;
+        font-size: 6vmin;
+    }
+
+    .TitleUnderline{
+        color: white;
+        border-width: 3px;
+        border-style: solid;
+        margin-bottom: 70px;
+    }
+
+    li{
+        color: white;
+        font-size: 4vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+    }
+
+    .kosenPreConLink{
+        color: rgb(193, 217, 247);
+        font-size: 4vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        text-decoration: underline ;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 4vmin;
+    }
+
+    thead{
+    background-color: var(--essDarkGray);
     color: white;
-    font-size: 4vmin;
-    margin-left: 5vmin;
-    margin-right: 5vmin;
-}
-
-.BGPoster{
-    width: 100vmin;
-}
-
-.linkLine{
-    color: white;
-    border-width: 3px;
-    border-style: solid;
-    margin: 70px;
-}
-
-.linktext{
-    color: white;
-    font-size: 10vmin;
-    text-align: center;
-    width: 50vmin;
-    border-radius: 5vmin;
-    margin: auto;
-}
-
-.linktext:hover{
-    background-color: white;
-    color: var(--essBlack);
-}
-
-.ContextArea{
-    margin-left: 7vmin;
-    margin-right: 7vmin;
-}
-
-.textTitle1{
-    margin-top: 8vmin;
-    color: white;
-    font-size: 8vmin;
-}
-
-.TitleUnderline{
-    color: white;
-    border-width: 3px;
-    border-style: solid;
-    margin-bottom: 70px;
-}
-
-li{
-    color: white;
-    font-size: 4vmin;
-    margin-left: 5vmin;
-    margin-right: 5vmin;
-}
-
-.kosenPreConLink{
-    color: rgb(193, 217, 247);
-    font-size: 4vmin;
-    margin-left: 5vmin;
-    margin-right: 5vmin;
-    text-decoration: underline ;
-}
-
-table{
-    border-collapse: collapse;
-    width: 100%;
-    height: auto;
-    color: white;
-    font-size: 4vmin;
-}
-
-thead{
-  background-color: var(--essDarkGray);
-  color: white;
-  border: 3px solid white;
-  font-size: 4vmin;
-}
-
-th{
     border: 3px solid white;
+    font-size: 4vmin;
+    }
+
+    th{
+        border: 3px solid white;
+    }
+
+    td{
+        background-color: #43434366;
+        border: 3px solid white;
+        padding: 3vw;
+    }
+
+    .randomBlankSpace{
+        width: 100%;
+        height: 6vh;
+    }
+
+    .roomSlidesContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    .roomPict {
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        animation: change-img-anim 50s infinite;
+    }
+
+    .roomPict:nth-of-type(1) {
+        animation-delay: 0s;
+    }
+
+    .roomPict:nth-of-type(2) {
+        animation-delay: 10s;
+    }
+
+    .roomPict:nth-of-type(3) {
+        animation-delay: 20s;
+    }
+
+    .roomPict:nth-of-type(4) {
+        animation-delay: 30s;
+    }
+
+    .roomPict:nth-of-type(5) {
+        animation-delay: 40s;
+    }
+
+    @keyframes change-img-anim {
+        0%{ opacity: 0;}
+        10%{ opacity: 1;}
+        90%{ opacity: 1;}
+        100%{ opacity: 0;}
+    }
+
+    .Space4Pictures{
+        width: 100%;
+        height: 75vw;
+    }
 }
 
-td{
-    background-color: #43434366;
+@media (min-width:1px) and (max-width:999px) {
+    body{
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../Main/BGPattern.png) repeat;
+    }
+
+    main{
+        position: relative;
+        top: 16vmin;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15vh;
+    }
+
+    .homeArea{
+        width: 100%;
+        padding-bottom: 0.5vh;
+    }
+
+    p{
+        color: white;
+        font-size: 4vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+    }
+
+    .BGPoster{
+        width: 100vmin;
+    }
+
+    .linkLine{
+        color: white;
+        border-width: 3px;
+        border-style: solid;
+        margin: 70px;
+    }
+
+    .linktext{
+        color: white;
+        font-size: 10vmin;
+        text-align: center;
+        width: 50vmin;
+        border-radius: 5vmin;
+        margin: auto;
+    }
+
+    .linktext:hover{
+        background-color: white;
+        color: var(--essBlack);
+    }
+
+    .ContextArea{
+        margin-left: 7vmin;
+        margin-right: 7vmin;
+    }
+
+    .textTitle1{
+        margin-top: 8vmin;
+        color: white;
+        font-size: 6vmin;
+    }
+
+    .TitleUnderline{
+        color: white;
+        border-width: 3px;
+        border-style: solid;
+        margin-bottom: 70px;
+    }
+
+    li{
+        color: white;
+        font-size: 4vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+    }
+
+    .kosenPreConLink{
+        color: rgb(193, 217, 247);
+        font-size: 4vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        text-decoration: underline ;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 4vmin;
+    }
+
+    thead{
+    background-color: var(--essDarkGray);
+    color: white;
     border: 3px solid white;
-    padding: 3vw;
-}
+    font-size: 4vmin;
+    }
 
-.randomBlankSpace{
-    width: 100%;
-    height: 3vh;
-}
+    th{
+        border: 3px solid white;
+    }
 
-.roomSlidesContainer{
-	position: relative;
-	width: 100%;
-}
+    td{
+        background-color: #43434366;
+        border: 3px solid white;
+        padding: 3vw;
+    }
 
-.roomPict {
-	position: absolute;
-	width: 100%;
-	opacity: 0;
-	animation: change-img-anim 50s infinite;
-}
+    .randomBlankSpace{
+        width: 100%;
+        height: 6vh;
+    }
 
-.roomPict:nth-of-type(1) {
-	animation-delay: 0s;
-}
+    .roomSlidesContainer{
+        position: relative;
+        width: 100%;
+    }
 
-.roomPict:nth-of-type(2) {
-	animation-delay: 10s;
-}
+    .roomPict {
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        animation: change-img-anim 50s infinite;
+    }
 
-.roomPict:nth-of-type(3) {
-	animation-delay: 20s;
-}
+    .roomPict:nth-of-type(1) {
+        animation-delay: 0s;
+    }
 
-.roomPict:nth-of-type(4) {
-	animation-delay: 30s;
-}
+    .roomPict:nth-of-type(2) {
+        animation-delay: 10s;
+    }
 
-.roomPict:nth-of-type(5) {
-	animation-delay: 40s;
-}
+    .roomPict:nth-of-type(3) {
+        animation-delay: 20s;
+    }
 
-@keyframes change-img-anim {
-	0%{ opacity: 0;}
-	10%{ opacity: 1;}
-	90%{ opacity: 1;}
-	100%{ opacity: 0;}
-}
+    .roomPict:nth-of-type(4) {
+        animation-delay: 30s;
+    }
 
-.Space4Pictures{
-    width: 100%;
-    height: 42vh;
+    .roomPict:nth-of-type(5) {
+        animation-delay: 40s;
+    }
+
+    @keyframes change-img-anim {
+        0%{ opacity: 0;}
+        10%{ opacity: 1;}
+        90%{ opacity: 1;}
+        100%{ opacity: 0;}
+    }
+
+    .Space4Pictures{
+        width: 100%;
+        height: 75vw;
+    }
 }
