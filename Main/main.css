@@ -2,7 +2,7 @@
     --clear: #ffffff00;
     --essBlack: #0C0C0C;
     --essDarkGray: #434343;
-} 
+}
 
 @media (min-width:1000px) {
     body{
@@ -59,6 +59,7 @@
     .linktext:hover{
         background-color: white;
         color: var(--essBlack);
+        cursor: pointer;
     }
 
     .ContextArea{
@@ -216,7 +217,7 @@
     }
 
     .BGPoster{
-        width: 100vmin;
+        width: 100vw;
     }
 
     .linkLine{
@@ -224,6 +225,7 @@
         border-width: 3px;
         border-style: solid;
         margin: 70px;
+        cursor: move;
     }
 
     .linktext{
@@ -238,6 +240,7 @@
     .linktext:hover{
         background-color: white;
         color: var(--essBlack);
+        cursor: pointer;
     }
 
     .ContextArea{

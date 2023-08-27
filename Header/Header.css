@@ -45,6 +45,10 @@
       margin: auto;
     }
 
+    .nav-item:hover{
+      cursor: pointer;
+    }
+
     .nav-item-text{
       font-size: 4vmin;
       color: white;
@@ -63,6 +67,10 @@
         left: 50%;
         transform: translateY(-45%) translateX(-50%);
         z-index: 99;
+    }
+
+    .TitleLogo:hover{
+      cursor: pointer;
     }
 }
 
@@ -97,6 +105,10 @@
         left: 17%;
         transform: translateY(-50%);
         z-index: 99;
+    }
+
+    .TitleLogo:hover{
+      cursor: pointer;
     }
 
     button {
@@ -186,11 +198,16 @@
         left: 50%;        
         transform: translate(-50%,-50%);        
         text-align: center;      
-      }      
+      } 
+
       .nav-item{    
         margin-right: 0;        
         margin-bottom: 75px;      
       }
+
+    .nav-item:hover{
+      cursor: pointer;
+    }
 
       .nav-item-text{
         font-size: 6vmin;

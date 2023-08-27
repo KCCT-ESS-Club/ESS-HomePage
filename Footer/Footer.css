@@ -27,6 +27,10 @@ footer{
     margin-right: 10vw;
 }
 
+.twitter:hover{
+    cursor: pointer;
+  }
+
 .KCCTMark{
     background-color: #e6e6e6;
     width: 4vh;
@@ -36,6 +40,10 @@ footer{
     margin-right: 10vw;
 }
 
+.KCCTMark:hover{
+    cursor: pointer;
+  }
+
 .github{
     background-color: white;
     width: 4vh;
@@ -43,3 +51,7 @@ footer{
     border-radius: 100%;
     display: inline-flex;
 }
+
+.github:hover{
+    cursor: pointer;
+  }
